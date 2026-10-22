@@ -1,6 +1,6 @@
 # Repository specification: aether-ai-ui-components
 
-**Status:** Documentation baseline copied from the Aether AI master specification. Implementation status must be verified separately.
+**Status:** Repository exists; documentation-only on the inspected `main` branch. No application implementation is present in the audited tree.
 
 ## Mission
 
@@ -8,7 +8,7 @@ Accessible reusable UI components, theme tokens, layout primitives, and interact
 
 ## Dependencies and connections
 
-aether-ai-web, aether-ai-admin.
+No product-domain dependencies; presentation primitives only.
 
 ## Owned capabilities
 
