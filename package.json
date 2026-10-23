@@ -1,0 +1,13 @@
+{
+  "name": "@aether-ai/ui-components",
+  "version": "0.1.0",
+  "description": "Framework-neutral accessibility and safe-link utilities for Aether AI UI components",
+  "license": "UNLICENSED",
+  "type": "module",
+  "sideEffects": false,
+  "files": ["dist"],
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc --noEmit -p tsconfig.json", "test": "vitest run" },
+  "devDependencies": { "typescript": "5.9.3", "vitest": "5.0.5" },
+  "engines": { "node": ">=20" }
+}

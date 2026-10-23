@@ -4,7 +4,11 @@ Aether AI repository for Accessible reusable UI components, theme tokens, layout
 
 ## Status
 
-Documentation baseline established. This repository is not considered implemented or production-ready until code, tests, security review, and release checks are completed.
+Initial framework-neutral accessibility/link-safety helpers are in review. No React components, styling system, or visual test stack is implemented.
+
+## Initial implementation
+
+The draft package validates safe HTTPS and same-origin relative hrefs, optionally allows HTTP when explicitly requested, rejects dangerous URL schemes/protocol-relative links/embedded credentials, and normalizes plain accessible text. This is defense-in-depth only; consumers must still render escaped attributes and must not inject raw HTML. Framework, styling, and component API decisions remain open.
 
 ## Documentation
 
