@@ -32,3 +32,10 @@ Documentation baseline established. This repository is not considered implemente
 - [Security review](docs/SECURITY_REVIEW.md)
 - [Engineering standard](docs/ENGINEERING_STANDARD.md)
 - [Work log](docs/WORKLOG.md)
+
+
+## Implemented code baseline
+
+- Framework-neutral design tokens, class-name composition, button state props, field label/error semantics, and visually-hidden styles.
+- Unit tests run with Node's built-in test runner; CI checks Node.js 20 and 22.
+- This is a starter primitive layer, not a complete visual component library. Framework bindings, browser-level accessibility tests, and design-system review remain follow-up work.
