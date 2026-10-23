@@ -1,0 +1,11 @@
+{
+  "name": "@aether-ai/ui-components",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Framework-neutral accessible UI primitives and design tokens for Aether AI",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js"
+  }
+}
